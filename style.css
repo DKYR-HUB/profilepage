@@ -7,7 +7,7 @@ body {
 }
 
 .bg {
-    background-image: url("/main/background.jpeg");
+    background-image: url("https://github.com/DKYR-HUB/profilepage/blob/main/background.jpeg");
     height: 50vh;
     background-repeat: no-repeat;
     background-position: center top;
