@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;}
+
+body {
+    background-color: #262626;
+}
+
+.bg {
+    background-image: url("img/background.jpeg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1500px;
+    background-attachment: fixed;
+}
+
+.bggrad {
+    background-image: linear-gradient(rgba(0,0,0,0),85%, #262626);
+    height: inherit;
+}
+
+.profile {
+    width: 30%;
+}
+
+.info {
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile img{width:70%;
+    min-width: 160px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.profile img:hover{
+    transform: rotate(5deg);
+    transition-duration: 0.5s;
+}
+
+.cont1 {
+    position: fixed;
+    left: 15%;
+    top: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.name {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-sizing: content-box;
+    text-shadow: 3px 3px 3px black;
+}
+
+.subinfo {
+    color: crimson;
+    text-shadow: 2px 2px 3px black;
+}
+
+.aboutme {
+    color: white;
+}
+
+.cont2 {
+    width: 70%;
+    position: relative;
+    top: 210px;
+    left: 13%;
+    padding: 20px;
+}
+
+
+@media all and (max-width: 920px) {
+    .bg {
+        background-image: url("img/background.jpeg");
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 920px;
+        background-attachment: fixed;
+    }
+
+    .bggrad {
+        background-image: linear-gradient(rgba(0,0,0,0),85%, #262626);
+        height: inherit;
+    }
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.button1 {
+    border: 1px solid rgb(196, 196, 196);
+    height: 20px;
+    overflow: hidden;
+    padding: 3px 3px 5px 5px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    margin-right: 10px;
+}
+
+.bomb:hover {
+    display: none;
+}
+
+.collision:hover {
+    display: block;
+}
+
+
+@media all and (max-width: 700px) {
+    .profile img{width:70%;
+        min-width: 120px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .info {
+        font-size: 0.7em;
+        margin-left: 40px;
+    }
+
+}
