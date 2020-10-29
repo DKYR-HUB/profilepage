@@ -7,7 +7,7 @@ body {
 }
 
 .bg {
-    background-image: url("https://github.com/DKYR-HUB/profilepage/blob/main/background.jpeg");
+    background-image: url("https://media.comicbook.com/2020/08/top-anime-series-fans-watch-rest-of-their-lives-1232872-1280x0.jpeg");
     height: 50vh;
     background-repeat: no-repeat;
     background-position: center top;
@@ -80,7 +80,7 @@ body {
 
 @media all and (max-width: 920px) {
     .bg {
-        background-image: url("/background.jpeg");
+        background-image: url("https://media.comicbook.com/2020/08/top-anime-series-fans-watch-rest-of-their-lives-1232872-1280x0.jpeg");
         height: 30vh;
         background-repeat: no-repeat;
         background-position: center top;
