@@ -7,7 +7,7 @@ body {
 }
 
 .bg {
-    background-image: url("background.jpeg");
+    background-image: url("/background.jpeg");
     height: 50vh;
     background-repeat: no-repeat;
     background-position: center top;
@@ -80,7 +80,7 @@ body {
 
 @media all and (max-width: 920px) {
     .bg {
-        background-image: url("background.jpeg");
+        background-image: url("/background.jpeg");
         height: 30vh;
         background-repeat: no-repeat;
         background-position: center top;
