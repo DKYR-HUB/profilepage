@@ -7,7 +7,7 @@ body {
 }
 
 .bg {
-    background-image: url("/background.jpeg");
+    background-image: src="background.jpeg";
     height: 50vh;
     background-repeat: no-repeat;
     background-position: center top;
